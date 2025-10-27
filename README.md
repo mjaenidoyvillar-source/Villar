@@ -61,52 +61,52 @@ The main learning objectives achieved in this midterm project:
 ## Features / Functionality
 
 ### 1. **Product Management**
-- ✅ Create, read, update, and delete products
-- ✅ Organize products by categories
-- ✅ Track stock levels with automatic status indicators
-  - 🟢 In Stock: More than 10 items
-  - 🟡 Low Stock: 1-10 items
-  - 🔴 Out of Stock: 0 items
-- ✅ Set product prices and calculate inventory values
-- ✅ Search and filter products by category, stock level, and name
+- Create, read, update, and delete products
+- Organize products by categories
+- Track stock levels with automatic status indicators
+  - In Stock: More than 10 items
+  - Low Stock: 1-10 items
+  - Out of Stock: 0 items
+- Set product prices and calculate inventory values
+- Search and filter products by category, stock level, and name
 
 ### 2. **Category Management**
-- ✅ Create and manage product categories
-- ✅ View all products within each category
-- ✅ Prevent deletion of categories with associated products
+- Create and manage product categories
+- View all products within each category
+- Prevent deletion of categories with associated products
 
 ### 3. **Transaction Processing**
-- ✅ Create pending transactions
-- ✅ Track transaction status (pending, completed, cancelled)
-- ✅ Two-phase commit process:
+- Create pending transactions
+- Track transaction status (pending, completed, cancelled)
+- Two-phase commit process:
   1. Create transaction (stock reserved but not reduced)
   2. Complete transaction (stock actually reduced)
-- ✅ Automatic price and total amount calculations
-- ✅ View transaction history with buyer details
-- ✅ Filter transactions by status, product, and date range
+- Automatic price and total amount calculations
+- View transaction history with buyer details
+- Filter transactions by status, product, and date range
 
 ### 4. **Customer Management**
-- ✅ Store customer information (name, email, phone, address, company)
-- ✅ Track customer purchase history
-- ✅ Calculate total spending per customer
-- ✅ View customer transaction statistics
-- ✅ Prevent deletion of customers with transaction history
+- Store customer information (name, email, phone, address, company)
+- Track customer purchase history
+- Calculate total spending per customer
+- View customer transaction statistics
+- Prevent deletion of customers with transaction history
 
 ### 5. **Dashboard Analytics**
-- ✅ Overview of total products, categories, and transactions
-- ✅ Stock level breakdown (in stock, low stock, out of stock)
-- ✅ Financial metrics:
+- Overview of total products, categories, and transactions
+- Stock level breakdown (in stock, low stock, out of stock)
+- Financial metrics:
   - Total inventory value
   - Total sales value
-- ✅ Transaction status tracking
-- ✅ Visual indicators for stock levels
+- Transaction status tracking
+- Visual indicators for stock levels
 
 ### 6. **Advanced Features**
-- ✅ Real-time search functionality across all modules
-- ✅ Pagination for large datasets
-- ✅ Responsive design for desktop and mobile devices
-- ✅ Data validation with user-friendly error messages
-- ✅ Eager loading for optimized database queries
+- Real-time search functionality across all modules
+- Pagination for large datasets
+- Responsive design for desktop and mobile devices
+- Data validation with user-friendly error messages
+- Eager loading for optimized database queries
 
 ---
 
